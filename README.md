@@ -11,9 +11,9 @@ sudo apt-get -qq remove ffmpeg x264 libx264-dev
 
 sudo apt-get -qq install libopencv-dev build-essential checkinstall cmake pkg-config yasm libtiff4-dev libjpeg-dev libjasper-dev libavcodec-dev libavformat-dev libswscale-dev libdc1394-22-dev libxine-dev libgstreamer0.10-dev libgstreamer-plugins-base0.10-dev libv4l-dev python-dev python-numpy libtbb-dev libqt4-dev libgtk2.0-dev libfaac-dev libmp3lame-dev libopencore-amrnb-dev libopencore-amrwb-dev libtheora-dev libvorbis-dev libxvidcore-dev x264 v4l-utils ffmpeg
 
-#if any libs give errors, remove them from the list (I had a couple when I tried)
+if any libs give errors, remove them from the list (I had a couple when I tried)
 
-#Then, while in the new opencv directory:
+Then, while in the new opencv directory:
 
 mkdir build
 
